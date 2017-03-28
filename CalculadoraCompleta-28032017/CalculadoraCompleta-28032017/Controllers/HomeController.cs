@@ -65,10 +65,7 @@ namespace CalculadoraCompleta_28032017.Controllers
                     Session["PrimeioroOPerador"] = true;
                     break;
 
-                case "+":
-                case "-":
-                case "x":
-                case ":":
+                
 
                     if ((bool)Session["PrimeioroOPerador"])
                     {
@@ -89,7 +86,10 @@ namespace CalculadoraCompleta_28032017.Controllers
                         switch ((string)Session["operador"])
                         {
                             //recuperar  CÓDIGO da 1ª Calculadora
-                            
+                            case "+":
+                            case "-":
+                            case "x":
+                            case ":":
                         }
 
                         //guardar os novos valores....
