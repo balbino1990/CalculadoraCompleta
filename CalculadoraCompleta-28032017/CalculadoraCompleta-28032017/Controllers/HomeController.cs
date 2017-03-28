@@ -89,6 +89,7 @@ namespace CalculadoraCompleta_28032017.Controllers
                         switch ((string)Session["operador"])
                         {
                             //recuperar  CÓDIGO da 1ª Calculadora
+                            
                         }
 
                         //guardar os novos valores....
